@@ -4,6 +4,9 @@ body{
 }
 .navbar{
     background-color:#00c4cc !important;
+    position: fixed;
+    z-index: 15;
+    width: 100%;
 
 }
 .logo{
@@ -20,12 +23,41 @@ body{
 .carotem{
     height: 35rem;
     width: 100%;
+    z-index: 1;
 }
 .prop{
     background-color: orangered;
     border: solid 2px;
+     color: rgb(1, 1, 31);
+    font-weight: bold;
     
     text-align: center !important;
 
+}
+.pro{
+    margin-left: 60rem;
+}
+
+.texte{
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: darkorange;
+}
+.text-dang{
+    font-size: 3rem;
+}
+.real{
+     background-color: orangered;
+    border: solid 2px rgb(1, 1, 31);
+    color: rgb(1, 1, 31);
+    font-weight: bold;
+    
+    text-align: center !important;
+}
+.zone-text{
+    border: solid blueviolet 3px;
+    width: 50%;
+    height: 25rem;
+    display: block;
 }
  
