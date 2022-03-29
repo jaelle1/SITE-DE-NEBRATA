@@ -5,8 +5,9 @@ body{
 .navbar{
     background-color:#00c4cc !important;
     position: fixed;
-    z-index: 15;
+    z-index: 5;
     width: 100%;
+    margin-top: -10px;
 
 }
 .logo{
@@ -23,7 +24,7 @@ body{
 .carotem{
     height: 35rem;
     width: 100%;
-    z-index: 1;
+    
 }
 .prop{
     background-color: orangered;
@@ -54,10 +55,41 @@ body{
     
     text-align: center !important;
 }
-.zone-text{
-    border: solid blueviolet 3px;
-    width: 50%;
-    height: 25rem;
-    display: block;
+.capti{
+    background-color: #00c4cc;
+    height: 100%;
+    width: 45%;
+    margin-left: 30rem;
+    margin-top: 65px;
 }
- 
+.capti1{
+    background-color: #00c4cc;
+    height: 100%;
+    width: 45%;
+    /* margin-left: 30rem; */
+    /* margin-top: 65px; */
+}
+.capti h2{
+    margin-top: 7rem;
+    color: rgb(245, 245, 241);
+    font-size: 2.5rem;
+    
+}
+.capti p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section{
+    z-index: 2;
+}
+.gogo{
+    height: 300px;
+    border: solid blue 3px;
+}
+.inner{
+    height: 447px;
+    margin-left: 25px;
+}
+.carousel-item img{
+    height: 100%;
+}
