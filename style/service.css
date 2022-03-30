@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 4rem;
+    width: 4rem;
+    margin-left: 5rem;
+}
+.logo1{
+     height: 7rem;
+    width: 7rem;
+    margin-left: 7rem;
+}
+.cc-navbar{
+    background-color: #00c4c1;
+    color: black;
+    font-weight: bold;
+    height: 200px;
+}
+.navbar{
+     background-color: #00c4c1;
+    color: black;
+    font-weight: bold;
+    height: 100px;
+}
+.nav-item {
+    margin-left: 5rem !important;
+}
+/* hjkl;? */
+
+/* fghjmk */
+section{
+    z-index: 2;
+}
+
+
+.nav-item ul li{
+    list-style-type: none;
+    list-style: none;
+}
+.fa-facebook{
+    color: rgb(4, 62, 148);
+}
+.fa-twitter{
+    color: rgb(4, 62, 148);
+}
+.fa-phone{
+    color: #fff;
+    
+}
+
+.fa-envelope{
+    color: #fff;
+}
+.num li a{
+margin-right: 2rem !important;
+
+color: black;
+}
+.cc-navbar ul li a{
+text-decoration: none;
+color: black;
+}
+.cc-navbar ul{
+    margin-top: 1rem;
+}
+.footer{
+    background-color:#00c4cc; 
+}
+.copy{
+    font-weight: bold;
+    color: black;
+    margin-top: 4rem;
+}
+.mise{
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+}
+.classe{
+    font-size: 2rem;
+    color: blue;
+    font-weight: bold;
+}
