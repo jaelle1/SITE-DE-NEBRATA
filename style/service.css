@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 4rem;
+    width: 4rem;
+    margin-left: 5rem;
+}
+.logo1{
+     height: 7rem;
+    width: 7rem;
+    margin-left: 7rem;
+}
+ 
+.navbar{
+     background-color: #00c4c1;
+    color: black;
+    font-weight: bold;
+    height: 200px;
+    width: 100%;
+     position: fixed !important;
+     z-index: 10;
+}
+.cc-navbar{
+    background-color: #00c4c1;
+    color: black;
+    font-weight: bold;
+    height: 100px;
+   
+} 
+.nav-item {
+    margin-left: 5rem !important;
+}
+/* hjkl;? */
+
+/* fghjmk */
+section{
+    z-index: 2;
+}
+
+
+.nav-item ul li{
+    list-style-type: none;
+    list-style: none;
+}
+.fa-facebook{
+    color: rgb(4, 62, 148);
+}
+.fa-twitter{
+    color: rgb(4, 62, 148);
+}
+.fa-phone{
+    color: #fff;
+    
+}
+
+.fa-envelope{
+    color: #fff;
+}
+.num li a{
+margin-right: 2rem !important;
+
+color: black;
+}
+.navbar ul li a{
+text-decoration: none;
+color: black;
+}
+.navbar ul{
+    margin-top: 1rem;
+}
+.footer{
+    background-color:#00c4cc; 
+}
+.copy{
+    font-weight: bold;
+    color: black;
+    margin-top: 4rem;
+}
+.cooltxt{
+    text-align: center;
+}
+.cooltxt h5{
+    font-size: 2rem;
+    color: rgb(0, 251, 239);
+    margin-bottom: 6rem;
+}
+.cooltxt p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+.cooltxt1{
+    text-align: center;
+}
+.cooltxt1 h5{
+    font-size: 2rem;
+    color: blue;
+    margin-bottom: 9rem;
+}
+.cooltxt1 p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color:black ;
+}
+.cooltxt2{
+    text-align: center;
+}
+.cooltxt2 h5{
+    font-size: 2rem;
+    color: rgb(24, 3, 21);
+    margin-bottom: 8rem;
+}
+.cooltxt2 p{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+.rdv{
+    height: 7.5rem;
+    background-color: orangered;
+}
+.echange{
+    background-color: #00c4cc;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 450px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1rem;
+
+}
+.page{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.lien a{
+    font-size: 30px;
+   
+}
+.lien{
+    
+    margin-top: 20px;
+     background-color: #00c4c1;
+     width: 260px;
+     text-align: center;
+}
+.sect{
+    margin-top: 120px;
+}
+
+@media only screen and (max-width: 802px){
+    .navbar-nav{
+        text-align: right;
+        margin-bottom: 15px;
+        display: inline-flex;
+        
+    }
+    .logo{
+        float: left;
+    }
+    .page{
+    font-size: 15px;
+    margin-left: 0px;}
+    .lien a{
+    font-size: 10px;
+   
+}
+.carousel-item img{
+    width: 100%;
+    height: 30% !important;
+}
+    
+}
