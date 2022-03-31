@@ -9,8 +9,8 @@ body{
     margin-left: 5rem;
 }
 .logo1{
-     height: 7rem;
-    width: 7rem;
+     height: 6rem;
+    width: 6rem;
     margin-left: 4rem;
 }
 .cc-navbar{
@@ -18,8 +18,6 @@ body{
     color: black;
     font-weight: bold;
     height: 200px;
-    /* margin-top: 100px; */
-   
 }
 .navbar{
      background-color: #00c4c1;
@@ -75,13 +73,23 @@ body{
     background-color: #00c4cc;
     height: 100%;
     width: 50%;
-    margin-left: 30rem;
+    margin-left: 29rem;
     margin-top: 65px;
+    text-align: center;
 }
 
+.capti h2{
+    font-weight: bold;
+    font-size: 2rem; 
+    margin-top: 7rem;
+    margin-right: 2rem;
+
+}
 .capti p{
     font-weight: bold;
     font-size: 1.5rem;
+    margin-right: 2rem;
+
 }
 
 
@@ -91,7 +99,7 @@ body{
     height: 100%;
     width: 45%;
     margin-right: rem !important;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -118,7 +126,7 @@ section{
 
 .inner{
     height: 447px;
-    width: 90%;
+    width: 94%;
     margin-left: 50px;
 }
 .inner1{
@@ -156,11 +164,8 @@ section{
 .fa-envelope{
     color: #fff;
 }
-.num li a{
-margin-right: 2rem !important;
 
-color: black;
-}
+
 .cc-navbar ul li a{
 text-decoration: none;
 color: black;
@@ -168,11 +173,22 @@ color: black;
 .cc-navbar ul{
     margin-top: 1rem;
 }
-.fo{
+.footer{
     background-color:#00c4cc; 
+    height: 4rem;
 }
 .copy{
     font-weight: bold;
-    color: black;
-    margin-top: 4rem;
+    color: white !important;
+    margin-top: 5px;
+}
+.ff{
+    background-color: black;
+    height: 2rem;
+    
+    
+}
+.serv{
+    font-size: 0.8rem;
+    font-weight: bold;
 }
