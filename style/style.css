@@ -3,7 +3,6 @@ body{
     padding: 0;
 }
 
-
 .logo{
     height: 4rem;
     width: 4rem;
@@ -71,7 +70,8 @@ body{
     
     text-align: center !important;
 }
-.capti{
+.capti
+{
     background-color: #00c4cc;
     height: 100%;
     width: 50%;
@@ -79,12 +79,6 @@ body{
     margin-top: 65px;
 }
 
-.capti h2{
-    margin-top: 7rem;
-    color: rgb(245, 245, 241);
-    font-size: 2.5rem;
-    
-}
 .capti p{
     font-weight: bold;
     font-size: 1.5rem;
@@ -93,7 +87,7 @@ body{
 
 /* vbnm, */
 .capti2{
-    background-color: #00c4cc;
+  background-color: #00c4cc;
     height: 100%;
     width: 45%;
     margin-right: rem !important;
@@ -135,6 +129,7 @@ section{
 .carousel-item img{
     height: 100%;
 }
+
 .emploi{
     justify-content: space-around;
 }
@@ -173,7 +168,7 @@ color: black;
 .cc-navbar ul{
     margin-top: 1rem;
 }
-.footer{
+.fo{
     background-color:#00c4cc; 
 }
 .copy{
