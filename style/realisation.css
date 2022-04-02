@@ -19,8 +19,6 @@ body {
     color: black;
     font-weight: bold;
     height: 200px;
-    top: 0;
-    left: 0;
 }
 .navbar {
   background-color: #00eaff;
@@ -82,7 +80,7 @@ body {
     height: 2rem;}
 
     num li a {
-  margin-right: 2rem !important;
+  margin-right: 2rem; !important;
 
   color: black;
     }
@@ -95,5 +93,34 @@ color: black;
 }
 .serv{
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: bold;}
+    
+
+.image{
+    width: 100%;
+    height: auto;
+}
+    .image img{
+        width: 498px;
+        height: 498px;
+        border-radius: 10px;
+    }
+   
+.cccc p{
+    color: red;
+}
+.cccc .image {
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
+
+}
+
+#Ima:hover{
+    transform: scale(0.8);
+}
+@media only screen and (max-width: 802px){
+    .sect{
+        background-color: red;
+    }
 }
