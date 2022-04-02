@@ -1,4 +1,3 @@
-/* entete */
 body {
   margin: 0;
   padding: 0;
@@ -19,8 +18,6 @@ body {
     color: black;
     font-weight: bold;
     height: 200px;
-    top: 0;
-    left: 0;
 }
 .navbar {
   background-color: #00eaff;
@@ -35,7 +32,29 @@ body {
 .nav-item {
   margin-left: 5rem !important;
 }
-/* bande orange et lienn  */
+/* hjkl;? */
+
+.carousel-caption h5{
+     color: #00eaff;
+     font-size: 2rem;
+     margin-bottom: 290px;
+     margin-right: 222px;
+     margin-left: -30px;
+}
+.carousel-caption p{
+  font-size: 1.4rem;
+  color: #fff;
+}
+/* .cap{
+  width: 100%;
+  height: 25%;
+} */
+.cap1, .cap{
+  width: 1400px !important;
+  height: 625px !important;
+  margin-left: 11rem;
+}
+/* dfghjhnjchdbuj  */
 .rdv{
     height: 7.5rem;
     background-color: orangered;
@@ -96,4 +115,7 @@ color: black;
 .serv{
     font-size: 0.8rem;
     font-weight: bold;
+}
+.card img{
+  border-radius: 50%;
 }
