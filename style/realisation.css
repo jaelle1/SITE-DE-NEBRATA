@@ -119,8 +119,34 @@ color: black;
 #Ima:hover{
     transform: scale(0.8);
 }
-@media only screen and (max-width: 802px){
-    .sect{
-        background-color: red;
-    }
+@media(max-width: 755px){
+  .cc .lien{
+      color: red;
+  }
+}
+/*footer*/
+.foot{
+    background-color: #00c4c1;
+}
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    
+    
+    align-items: center;
+}
+.col-md-5 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.lien  {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     background-color: #00c4c1;
 }
