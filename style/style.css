@@ -13,12 +13,7 @@ body {
     width: 6rem;
     margin-left: 4rem;
 }
-.cc-navbar{
-    background-color: #00c4c1;
-    color: black;
-    font-weight: bold;
-    height: 200px;
-}
+
 .navbar {
   background-color: #00c4c1;
   color: black;
@@ -163,29 +158,138 @@ section {
 }
 
 
-.cc-navbar ul li a{
-text-decoration: none;
-color: black;
+
+
+/*footer*/
+.foot{
+    background-color: #00c4c1;
 }
-.footer {
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    align-items: center;
+    text-decoration: none;
+}
+.cool{
+    text-decoration: none;
+}
+.col-md-5 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.lien  {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     background-color: #00c4c1;
+}
+@media only screen and (max-width: 802px) { .lien{
+    width: 200px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: -25px;
+    margin-left: 250px;
+}
+.cool{
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.nav-item{
+    background-color: #00eaff;
+    opacity: 0.6;
+    width: 150px;}
+
+.real{
+  font-size: 8px;
+  
+}
+
+.capti
+{
+    background-color: #00c4cc;
+    height: 55%;
+    width: 50%;
+    margin-left: 5rem;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.capti h2{
+    font-weight: bold;
+    font-size: 15px; 
+    margin-top: 4rem;
+    margin-right: 2rem;
+
+}
+.capti p{
+    font-weight: bold;
+    font-size: 8px;
+    margin-right: 2rem;
+
+}
+
+/* vbnm, */
+.capti2 {
   background-color: #00c4cc;
+    height: 50%;
+    width: 50%;
+    margin-right: 6rem !important;
+    margin-top: 20px;
+    text-align: center;
 }
-.footer{
-    background-color:#00c4cc; 
-    height: 4rem;
+
+.capti2 h2 {
+  margin-top: 1rem;
+  color: rgb(245, 245, 241);
+  font-size: 15px;
 }
-.copy{
-    font-weight: bold;
-    color: white !important;
-    margin-top: 5px;
+.capti2 p {
+  font-weight: bold;
+  font-size: 8px;
 }
-.ff{
-    background-color: black;
-    height: 2rem;
-    
-    
+/* ghjkl */
+.capti3 {
+  height: 50%;
+  width: 100%;
+  margin-left: 12rem;
+  margin-bottom: 9rem;
 }
-.serv{
-    font-size: 0.8rem;
-    font-weight: bold;
+
+
+.inner{
+    height: 225px;
+    width: 100%;
+    margin-left: 10px;
+}
+.inner1 {
+  height: 225px;
+  width: 100%;
+}
+.carousel-item img {
+  height: 300px;
+}
+.emploi {
+  justify-content: space-around;
+}
+.emploi img {
+  width: 150px;
+  height: 100px;
+}
+
+}
+.foot img{
+  height: 100px;
+  width: 100px;
+}
+.foot h4{
+  font-size: 15px;
+  font-weight: bold;
 }

@@ -127,45 +127,64 @@ color: black;
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
 }
-.rdv{
-    height: 7.5rem;
-    background-color: orangered;
-}
-.echange{
-    background-color: #00c4cc;
-    font-size: 1.1rem;
-    font-weight: bold;
-    width: 450px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 1rem;
-
-}
-.page{
-    font-size: 25px;
-    margin-left: 40px;
-}
-.lien a{
-    font-size: 13px;
-    font-weight: bold;
-    text-decoration: none;
-   
-}
-.lien{
-    
-    margin-top: 45px;
-     background-color: #00c4c1;
-     
-     width: 200px;
-     text-align: center;
-}
-.sect{
-    margin-top: 120px;
-}
 .serv{
     font-size: 0.8rem;
+    font-weight: bold;}
+    
+
+.image{
+    width: 100%;
+    height: auto;
+}
+    .image img{
+        width: 498px;
+        height: 498px;
+        border-radius: 10px;
+    }
+   
+.cccc p{
+    color: red;
+}
+.cccc .image {
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
+
+}
+
+#Ima:hover{
+    transform: scale(0.8);
+}
+
+
+
+
+/*footer*/
+.foot{
+    background-color: #00c4c1;
+}
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    align-items: center;
+    background-color: orangered;
+}
+.col-md-5 p{
+    font-size: 15px;
     font-weight: bold;
 }
+.lien  {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     background-color: #00c4c1;
+}
+
 
 
 @media only screen and (max-width: 802px){
@@ -189,5 +208,22 @@ color: black;
     width: 100%;
     height: 30% !important;
 }
+.lien{
+    width: 200px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 250px;
+    text-align: center;
+}
+.cool{
+    font-size: 15px;
+    text-align: left;
+    background-color: orangered;
+}
+.nav-item{
+    background-color: #00eaff;
+    opacity: 0.6;
+    width: 150px;}
     
 }

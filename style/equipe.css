@@ -119,3 +119,79 @@ color: black;
 .card img{
   border-radius: 50%;
 }
+
+
+
+/*footer*/
+.foot{
+    background-color: #00c4c1;
+}
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    align-items: center;
+    background-color: orangered;
+}
+.col-md-5 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.lien  {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+     background-color: #00c4c1;
+}
+
+
+@media only screen and (max-width: 802px){
+    .navbar-nav{
+        text-align: right;
+        margin-bottom: 15px;
+        display: inline-flex;
+        
+    }
+    .logo{
+        float: left;
+    }
+    .page{
+    font-size: 15px;
+    margin-left: 0px;}
+    .lien a{
+    font-size: 10px;
+   
+}
+.carousel-item img{
+    width: 100%;
+    height: 30% !important;
+}
+.lien{
+    width: 200px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 250px;
+    text-decoration: none;
+}
+.cool{
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+.nav-item{
+    background-color: #00eaff;
+    opacity: 0.6;
+    width: 150px;
+}
+.col-md-3 img{
+    width: 100px;
+    height: 100px;
+}
+
+    
+}
