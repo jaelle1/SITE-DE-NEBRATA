@@ -126,7 +126,8 @@ width: 100%;
     text-decoration: ;
 }
 .lien  {
-    font-size: 20px;
+    font-size: 12px;
+    padding: 5px;
     font-weight: bold;
     text-decoration: none;
      background-color: #00c4c1;
