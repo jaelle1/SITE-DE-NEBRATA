@@ -64,27 +64,6 @@ color: black;
     margin-top: 1rem;
 }
 
-.footer{
-    background-color:#00c4cc; 
-    height: 4rem;
-
-
-}
-.copy{
-    font-weight: bold;
-    color: white !important;
-    margin-top: 5px;
-}
-.ff{
-    background-color: black;
-    height: 2rem;
-    
-    
-}
-.serv{
-    font-size: 0.8rem;
-    font-weight: bold;
-}
 .caroussel{
 margin-top: 95px;
 height: 500px;
@@ -121,27 +100,54 @@ width: 100%;
     color: green;
     font-weight: bold;
 }
-.contai{
+
+
+/*footer*/
+.foot{
+    background-color: #00c4c1;
+}
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    align-items: center;
     background-color: orangered;
-    height: 7rem;
-    width: 100%;
-    border: black solid 1pxs;
 }
-.contacol{
-font-weight: bold;
-font-size: 23px;
-margin-left: 50px;
-}
-.contacol1{
-    position: absolute;
-    margin-left: 65%;
-    background-color: #00c4cc;
-}
-.contacol1 h1{
-    text-decoration: none !important;
-    margin-top: 30px;
+.col-md-5 p{
+    font-size: 15px;
     font-weight: bold;
-    font-size: 30px;
+}
+.cool{
+    text-decoration: ;
+}
+.lien  {
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+     background-color: #00c4c1;
+     text-align: center;
+}
+@media only screen and (max-width: 802px) { .lien{
+    width: 200px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 250px;
     text-align: center;
-    
+}
+.cool{
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+}
+.nav-item{
+    background-color: #00eaff;
+    opacity: 0.6;
+    width: 125px;
+}
 }

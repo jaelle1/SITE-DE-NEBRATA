@@ -1,38 +1,36 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
-.logo{
-    height: 4rem;
-    width: 4rem;
-    margin-left: 5rem;
+.logo {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 5rem;
 }
 .logo1{
-     height: 7rem;
-    width: 7rem;
-    margin-left: 7rem;
-}
- 
-.navbar{
-     background-color: #00c4c1;
-    color: black;
-    font-weight: bold;
-    height: 200px;
-    width: 100%;
-     position: fixed !important;
-     z-index: 10;
+     height: 6rem;
+    width: 6rem;
+    margin-left: 4rem;
 }
 .cc-navbar{
     background-color: #00c4c1;
     color: black;
     font-weight: bold;
-    height: 100px;
-   
-} 
+    height: 200px;
+}
+.navbar {
+  background-color: #00c4c1;
+  color: black;
+  font-weight: bold;
+  height: 100px;
+  width: 100%;
+  position: fixed !important;
+  z-index: 10;
+  margin-top: -10px;
+}
 .nav-item {
-    margin-left: 5rem !important;
+  margin-left: 5rem !important;
 }
 /* hjkl;? */
 
@@ -42,43 +40,53 @@ section{
 }
 
 
-.nav-item ul li{
-    list-style-type: none;
-    list-style: none;
+.nav-item ul li {
+  list-style-type: none;
+  list-style: none;
 }
-.fa-facebook{
-    color: rgb(4, 62, 148);
+.fa-facebook {
+  color: rgb(4, 62, 148);
 }
-.fa-twitter{
-    color: rgb(4, 62, 148);
+.fa-twitter {
+  color: rgb(4, 62, 148);
 }
-.fa-phone{
-    color: #fff;
-    
+.fa-phone {
+  color: #fff;
 }
 
-.fa-envelope{
-    color: #fff;
+.fa-envelope {
+  color: #fff;
 }
-.num li a{
-margin-right: 2rem !important;
+.num li a {
+  margin-right: 2rem !important;
 
-color: black;
+  color: black;
 }
-.navbar ul li a{
+
+
+.cc-navbar ul li a{
 text-decoration: none;
 color: black;
 }
-.navbar ul{
-    margin-top: 1rem;
-}
+
 .footer{
-    background-color:#00c4cc; 
+    /* background-color:#00eaff;  */
+    height: 4rem;
 }
 .copy{
     font-weight: bold;
-    color: black;
-    margin-top: 4rem;
+    color: white !important;
+    margin-top: 5px;
+}
+.ff{
+    background-color: black;
+    height: 2rem;
+    
+    
+}
+.serv{
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 .cooltxt{
     text-align: center;
@@ -119,38 +127,65 @@ color: black;
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
 }
-.rdv{
-    height: 7.5rem;
-    background-color: orangered;
+.serv{
+    font-size: 0.8rem;
+    font-weight: bold;}
+    
+
+.image{
+    width: 100%;
+    height: auto;
 }
-.echange{
-    background-color: #00c4cc;
-    font-size: 1.3rem;
-    font-weight: bold;
-    width: 450px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 1rem;
+    .image img{
+        width: 498px;
+        height: 498px;
+        border-radius: 10px;
+    }
+   
+.cccc p{
+    color: red;
+}
+.cccc .image {
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
 
 }
-.page{
-    font-size: 25px;
-    margin-left: 40px;
+
+#Ima:hover{
+    transform: scale(0.8);
 }
-.lien a{
-    font-size: 30px;
-   
+
+
+
+
+/*footer*/
+.foot{
+    background-color: #00c4c1;
 }
-.lien{
-    
-    margin-top: 20px;
+.col-md-3 img{
+    width: 150px;
+    height: 150px;
+}
+.col-md-2 a{
+   font-size: 30px;;
+}
+.cc{
+    align-items: center;
+    background-color: orangered;
+}
+.col-md-5 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.lien  {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
      background-color: #00c4c1;
-     width: 260px;
-     text-align: center;
 }
-.sect{
-    margin-top: 120px;
-}
+
+
 
 @media only screen and (max-width: 802px){
     .navbar-nav{
@@ -173,5 +208,22 @@ color: black;
     width: 100%;
     height: 30% !important;
 }
+.lien{
+    width: 200px;
+    font-size: 10px;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 250px;
+    text-align: center;
+}
+.cool{
+    font-size: 15px;
+    text-align: left;
+    background-color: orangered;
+}
+.nav-item{
+    background-color: #00eaff;
+    opacity: 0.6;
+    width: 150px;}
     
 }
