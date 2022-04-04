@@ -8,18 +8,16 @@ body{
     width: 4rem;
     margin-left: 5rem;
 }
-.logo1{
-     height: 6rem;
-    width: 6rem;
-    margin-left: 4rem;
-}
 .cc-navbar{
     background-color: #00c4c1;
     color: black;
     font-weight: bold;
-    height: 200px;
+    height: 150px;
+    margin-top: 4rem;
 }
 .navbar{
+    position: fixed !important;
+    z-index: 10;
     top: 0;
     right: 0;
     left: 0;
@@ -27,14 +25,18 @@ body{
     color: black;
     font-weight: bold;
     height: 100px;
-    width: 100%;
-     position: fixed;
-     z-index: 10;
-     margin-top: -10px;
+    
+    
+}
+.nav-link{
+    margin-left: 40px !important;
 }
 .nav-item {
-    margin-left: 5rem !important;
+    margin-left: 70px !important;
 }
+
+
+
 
 .nav-item ul li{
     list-style-type: none;
@@ -54,6 +56,11 @@ body{
 .fa-envelope{
     color: #fff;
 }
+.logo1{
+    height: 6rem;
+   width: 6rem;
+   margin-left: 4rem;
+}
 
 
 .cc-navbar ul li a{
@@ -63,11 +70,9 @@ color: black;
 .cc-navbar ul{
     margin-top: 1rem;
 }
-
 .footer{
     background-color:#00c4cc; 
     height: 4rem;
-
 
 }
 .copy{
@@ -85,41 +90,47 @@ color: black;
     font-size: 0.8rem;
     font-weight: bold;
 }
-.caroussel{
-margin-top: 95px;
-height: 500px;
-width: 100%;
+.contener{
+    display: flex !important;
+    margin-top: 105px;
+
 }
-.caroussel img{
-    width: 100%;
-    height: 100%;
+
+.text{
+    background-color: #00c4cc;
+    width: 50%;
+    flex-wrap: wrap;
+    z-index: 5;
+    font-size: 20px;
 }
-.carouselt{
+
+.text1{
+    width: 50%;
+    flex-wrap: wrap;
+}
+.text h1{
+text-align: center;
     
-    background-color:gainsboro;
-    margin-top: 15px;
-
 }
-.carouselt h1{
-    color: green;
-    text-align: center;
+.text p{
     font-weight: bold;
 }
-.ouaga{
-    font-weight: 700;
-}
-.num a{
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
+.text1 img{
+    height: 100%;
+    width:100% ;
 }
 
-.num i{
-    color: orangered;
-}
-.num h2{
-    color: green;
-    font-weight: bold;
+
+
+.partern{
+    height:3rem;
+    width: 9rem;
+    background-color: orangered;
+    margin-top: 0.3rem;
+  font-weight: bold;  
+  text-align: center;
+  margin-left: 6rem;
+  font-size: 15px;
 }
 .contai{
     background-color: orangered;
@@ -138,10 +149,8 @@ margin-left: 50px;
     background-color: #00c4cc;
 }
 .contacol1 h1{
-    text-decoration: none !important;
     margin-top: 30px;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    
 }
