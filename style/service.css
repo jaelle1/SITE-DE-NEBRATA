@@ -152,6 +152,7 @@ color: black;
 .cc{
     align-items: center;
     font-weight: bolder;
+    background-color: #00c4cc !important;
     
 }
 .col-md-5 p{
@@ -169,7 +170,7 @@ color: black;
     text-decoration: none;
 }
 .rdv{
-    background-color: #00c4cc;
+    background-color: #00c4cc !important;
 }
 .ssf{
     background-color: black;
@@ -220,7 +221,7 @@ color: black;
 .cool{
     font-size: 15px;
     text-align: left;
-    background-color: orangered;
+    
 }
 .nav-item{
     background-color: #00eaff;

@@ -171,10 +171,10 @@ height: 100%;
 }
 .lien  {
     font-size: 12px;
-    width: 350px;
+    width: 180px !important;
     font-weight: bold;
     text-decoration: none;
-     background-color: #00c4c1;
+     background-color: white;
 }
 @media only screen and (max-width: 802px) { .lien{
     width: 200px;

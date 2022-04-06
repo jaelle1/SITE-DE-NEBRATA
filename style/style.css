@@ -45,7 +45,7 @@ body {
   text-decoration: none !important;
 }
 .pro {
-  margin-left: 58rem;
+  margin-left: 40rem;
 }
 
 .texte {
@@ -65,7 +65,7 @@ body {
 .real a{
   text-decoration: none !important;
   color: white;
-  margin-top: 100px !important;
+  margin-top: 20px !important;
 }
 
 .capti,
@@ -211,6 +211,7 @@ section {
 .cc{
     align-items: center;
     text-decoration: none;
+    
 }
 .cool{
     text-decoration: none;
