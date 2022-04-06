@@ -16,7 +16,6 @@ body {
 
 .navbar {
   background-color: #00c4c1;
-  color: black;
   font-weight: bold;
   height: 100px;
   width: 100%;
@@ -25,7 +24,10 @@ body {
   margin-top: -10px;
 }
 .nav-item {
-  margin-left: 5rem !important;
+  margin-left: 3rem !important;
+}
+.nav-item a{
+  color: white !important;
 }
 .carotem {
   height: 35rem;
@@ -34,11 +36,13 @@ body {
 }
 .prop {
   background-color: orangered;
-  border: solid 2px;
-  color: rgb(1, 1, 31);
+  
   font-weight: bold;
-
   text-align: center !important;
+}
+.prop a{
+  color: white !important;
+  text-decoration: none !important;
 }
 .pro {
   margin-left: 58rem;
@@ -53,36 +57,53 @@ body {
   font-size: 3rem;
 }
 .real {
-  background-color: orangered;
-  border: solid 2px rgb(1, 1, 31);
-  color: rgb(1, 1, 31);
+  background-color: rgb(137, 216, 253);
   font-weight: bold;
-
   text-align: center !important;
+  
 }
-.capti
+.real a{
+  text-decoration: none !important;
+  color: white;
+  margin-top: 100px !important;
+}
+
+.capti,
+.captii,
+.captiii
 {
     background-color: #00c4cc;
-    height: 100%;
-    width: 50%;
-    margin-left: 29rem;
-    margin-top: 65px;
+    height: 400px;
+    width: 600px;
+    margin-left: 26rem;
     text-align: center;
 }
 
-.capti h2{
+.capti h2, 
+.captii h2,
+.captiii h2{
     font-weight: bold;
     font-size: 2rem; 
     margin-top: 7rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
 
 }
-.capti p{
+.capti p,
+.captii p,
+.captiii p{
     font-weight: bold;
     font-size: 1.5rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
 
 }
+.imserv,
+.imserv1,
+.imserv2,
+.imserv3{
+  height: 350px;
+  width:600px ;
+}
+
 
 /* vbnm, */
 .capti2 {
@@ -103,13 +124,13 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
 }
-/* ghjkl */
+
 .capti3 {
   height: 100%;
-  width: 45%;
+  width: 100%;
   margin-left: 32rem;
 }
-/* fghjmk */
+
 section {
   z-index: 2;
 }
@@ -151,18 +172,34 @@ section {
 .fa-envelope {
   color: #fff;
 }
-.num li a {
-  margin-right: 2rem !important;
 
-  color: black;
+.ssf{
+  background-color: black;
+  
+}
+.fot h4{
+  color: white !important;
+}
+.fot a{
+  text-decoration: none;
+  color: black !important;
+}
+.fot i{
+  margin-right: 7px;
 }
 
 
 
 
+.carousel-dark{
+  margin-top:50px ;
+}
+
+
+
 /*footer*/
 .foot{
-    background-color: #00c4c1;
+    background-color: #00c4cc;
 }
 .col-md-3 img{
     width: 150px;
@@ -293,3 +330,5 @@ section {
   font-size: 15px;
   font-weight: bold;
 }
+
+

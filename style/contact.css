@@ -35,6 +35,9 @@ body{
 .nav-item {
     margin-left: 5rem !important;
 }
+.nav-item a{
+    color: white !important;
+}
 
 .nav-item ul li{
     list-style-type: none;
@@ -55,7 +58,20 @@ body{
     color: #fff;
 }
 
-
+.ssf{
+    background-color: black;
+    
+  }
+  .fot h4{
+    color: white !important;
+  }
+  .fot a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .fot i{
+    margin-right: 7px;
+  }
 .cc-navbar ul li a{
 text-decoration: none;
 color: black;
@@ -76,29 +92,50 @@ width: 100%;
 .carouselt{
     
     background-color:gainsboro;
-    margin-top: 15px;
+    margin-top: 50px !important;
+    height: 550px;
 
 }
 .carouselt h1{
     color: green;
     text-align: center;
     font-weight: bold;
+    margin-top:50px;
 }
 .ouaga{
     font-weight: 700;
+    margin-top: 50px;
 }
 .num a{
     text-decoration: none;
     color: black;
     font-weight: 700;
+    margin-top: 50px;
+
 }
 
 .num i{
     color: orangered;
+    margin-top: 10px;
 }
 .num h2{
     color: green;
     font-weight: bold;
+    margin-top: 50px;
+}
+.nume a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+   
+}
+
+.nume i{
+    color: orangered;
+    margin-top: 10px;
+}
+.nume{
+    margin-top: 50px !important;
 }
 
 
@@ -115,22 +152,28 @@ width: 100%;
 }
 .cc{
     align-items: center;
-    background-color: orangered;
+    background-color: rgb(181, 232, 255);
+    font-weight: bold !important;
+    margin-top: 75px !important;
 }
 .col-md-5 p{
     font-size: 15px;
     font-weight: bold;
 }
 .cool{
-    text-decoration: ;
+    text-decoration:none ;
 }
 .lien  {
     font-size: 12px;
     padding: 5px;
-    font-weight: bold;
-    text-decoration: none;
-     background-color: #00c4c1;
+     background-color: white !important;
      text-align: center;
+     
+}
+.lien a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black !important;
 }
 @media only screen and (max-width: 802px) { .lien{
     width: 200px;

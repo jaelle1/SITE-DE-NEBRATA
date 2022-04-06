@@ -14,13 +14,13 @@ body {
     margin-left: 4rem;
 }
 .cc-navbar{
-    background-color: #00eaff;
+    background-color: #00c4cc;
     color: black;
     font-weight: bold;
     height: 200px;
 }
 .navbar {
-  background-color: #00eaff;
+  background-color: #00c4cc;
   color: black;
   font-weight: bold;
   height: 100px;
@@ -31,6 +31,9 @@ body {
 }
 .nav-item {
   margin-left: 5rem !important;
+}
+.nav-item a{
+    color: white !important;
 }
 /* hjkl;? */
 
@@ -57,7 +60,9 @@ body {
 /* dfghjhnjchdbuj  */
 .rdv{
     height: 7.5rem;
-    background-color: orangered;
+    background-color: rgb(102, 203, 250);
+    
+    
 }
 .echange{
     background-color: #00c4cc;
@@ -78,36 +83,24 @@ body {
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
    
 }
 .lien{
     
     margin-top: 45px;
-     background-color: #00c4c1;
-     
+     background-color: white;
      width: 200px;
      text-align: center;
 }
 .sect{
     margin-top: 120px;
 }
-.copy{
-    font-weight: bold;
-    color: white !important;
-    margin-top: 5px;
-}
-.ff{
-    background-color: black;
-    height: 2rem;}
-
-    num li a {
+.num li a {
   margin-right: 2rem !important;
 
   color: black;
     }
-
-
-
 .cc-navbar ul li a{
 text-decoration: none;
 color: black;
@@ -118,6 +111,26 @@ color: black;
 }
 .card img{
   border-radius: 50%;
+ 
+}
+#bjr:hover{
+    
+    transform: scale(0.8);
+  }
+#bjr1:hover{
+    
+    transform: scale(0.8);
+  }
+#bjr2:hover{
+    
+    transform: scale(0.8);
+  }
+#bjr3:hover{
+    
+    transform: scale(0.8);
+  }
+.card{
+    margin-top: 75px !important;
 }
 
 
@@ -125,6 +138,7 @@ color: black;
 /*footer*/
 .foot{
     background-color: #00c4c1;
+    
 }
 .col-md-3 img{
     width: 150px;
@@ -135,18 +149,44 @@ color: black;
 }
 .cc{
     align-items: center;
-    background-color: orangered;
+    background-color: rgb(102, 203, 250);
+    font-weight: bold;
+    margin-top: 50px !important;
 }
 .col-md-5 p{
     font-size: 15px;
     font-weight: bold;
 }
-.lien  {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-     background-color: #00c4c1;
+
+.fa-facebook{
+    color: rgb(4, 62, 148);
 }
+.fa-twitter{
+    color: rgb(4, 62, 148);
+}
+.fa-phone{
+    color: #fff;
+    
+}
+
+.fa-envelope{
+    color: #fff;
+}
+
+.ssf{
+    background-color: black;
+    
+  }
+  .fot h4{
+    color: white !important;
+  }
+  .fot a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .fot i{
+    margin-right: 7px;
+  }
 
 
 @media only screen and (max-width: 802px){

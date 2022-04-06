@@ -32,14 +32,13 @@ body {
 .nav-item {
   margin-left: 5rem !important;
 }
-/* hjkl;? */
+.nav-item a{
+    color: white !important;
+}
 
-/* fghjmk */
 section{
     z-index: 2;
 }
-
-
 .nav-item ul li {
   list-style-type: none;
   list-style: none;
@@ -62,8 +61,6 @@ section{
 
   color: black;
 }
-
-
 .cc-navbar ul li a{
 text-decoration: none;
 color: black;
@@ -73,20 +70,12 @@ color: black;
     /* background-color:#00eaff;  */
     height: 4rem;
 }
-.copy{
-    font-weight: bold;
-    color: white !important;
-    margin-top: 5px;
-}
-.ff{
-    background-color: black;
-    height: 2rem;
-    
-    
-}
 .serv{
     font-size: 0.8rem;
     font-weight: bold;
+}
+.derca{
+    background-color: #00c4c1 !important;
 }
 .cooltxt{
     text-align: center;
@@ -127,10 +116,6 @@ color: black;
     font-size: 1.3rem;
     color: rgb(0, 0, 0);
 }
-.serv{
-    font-size: 0.8rem;
-    font-weight: bold;}
-    
 
 .image{
     width: 100%;
@@ -148,17 +133,11 @@ color: black;
 .cccc .image {
     width: 500px;
     height: 500px;
-    /* border: 2px solid black; */
-
 }
 
 #Ima:hover{
     transform: scale(0.8);
 }
-
-
-
-
 /*footer*/
 .foot{
     background-color: #00c4c1;
@@ -172,7 +151,8 @@ color: black;
 }
 .cc{
     align-items: center;
-    background-color: orangered;
+    font-weight: bolder;
+    
 }
 .col-md-5 p{
     font-size: 15px;
@@ -182,8 +162,29 @@ color: black;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-     background-color: #00c4c1;
+     background-color: white;
 }
+.lien a{
+    color: black !important;
+    text-decoration: none;
+}
+.rdv{
+    background-color: #00c4cc;
+}
+.ssf{
+    background-color: black;
+    
+  }
+  .fot h4{
+    color: white !important;
+  }
+  .fot a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .fot i{
+    margin-right: 7px;
+  }
 
 
 

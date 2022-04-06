@@ -33,10 +33,13 @@ body {
 .nav-item {
   margin-left: 5rem !important;
 }
+.nav-item a{
+    color: white !important;
+}
 /* bande orange et lienn  */
 .rdv{
     height: 7.5rem;
-    background-color: orangered;
+    background-color:#00c4cc;
 }
 .echange{
     background-color: #00c4cc;
@@ -57,15 +60,7 @@ body {
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
-   
-}
-.lien{
-    
-    margin-top: 45px;
-     background-color: #00c4c1;
-     
-     width: 200px;
-     text-align: center;
+   color: black !important;
 }
 .sect{
     margin-top: 120px;
@@ -75,18 +70,6 @@ body {
     color: white !important;
     margin-top: 5px;
 }
-.ff{
-    background-color: black;
-    height: 2rem;}
-
-    num li a {
-  margin-right: 2rem; !important;
-
-  color: black;
-    }
-
-
-
 .cc-navbar ul li a{
 text-decoration: none;
 color: black;
@@ -112,17 +95,13 @@ color: black;
 .cccc .image {
     width: 500px;
     height: 500px;
-    /* border: 2px solid black; */
+    
 
 }
 
 #Ima:hover{
-    transform: scale(0.8);
+    transform: scale(0.5);
 }
-
-
-
-
 /*footer*/
 .foot{
     background-color: #00c4c1;
@@ -137,6 +116,8 @@ color: black;
 .cc{
     align-items: center;
     text-decoration: none;
+    font-weight: bold;
+
 }
 .cool{
     text-decoration: none;
@@ -149,8 +130,40 @@ color: black;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-     background-color: #00c4c1;
+     background-color: #e6f8f8;
 }
+
+.fa-facebook{
+    color: rgb(4, 62, 148);
+}
+.fa-twitter{
+    color: rgb(4, 62, 148);
+}
+.fa-phone{
+    color: #fff;
+    
+}
+
+.fa-envelope{
+    color: #fff;
+}
+
+.ssf{
+    background-color: black;
+    
+  }
+  .fot h4{
+    color: white !important;
+  }
+  .fot a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .fot i{
+    margin-right: 7px;
+  }
+
+
 @media only screen and (max-width: 802px) { .lien{
     width: 200px;
     font-size: 10px;
